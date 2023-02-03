@@ -194,7 +194,7 @@
                     <ui:WriteCell Cell="[&quot;E&quot;+(i+2).ToString]" DisplayName="Write Cell - Write Humidity" sap:VirtualizedContainerService.HintSize="337.6,116" sap2010:WorkflowViewState.IdRef="WriteCell_7" SheetName="Sheet1" Text="[humidity.ToString]" WorkbookPath="city_weather.xlsx" />
                     <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text - Extract Wind Speed" sap:VirtualizedContainerService.HintSize="337.6,107.2" sap2010:WorkflowViewState.IdRef="GetValue_4">
                       <ui:GetValue.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9bb0444d-e59c-4499-a4b3-3644aa7ae1aa" InformativeScreenshot="e6cce6ecbe7a0d7115a9856ee85cc483" Selector="&lt;html app='chrome.exe' title='Kansas City weather - Google Search' /&gt;&lt;webctrl id='wob_ws' tag='SPAN' /&gt;">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9bb0444d-e59c-4499-a4b3-3644aa7ae1aa" InformativeScreenshot="e6cce6ecbe7a0d7115a9856ee85cc483" Selector="&lt;html app='chrome.exe' title='* - Google Search' /&gt;&lt;webctrl id='wob_ws' tag='SPAN' /&gt;">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
